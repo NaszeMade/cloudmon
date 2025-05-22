@@ -28,6 +28,7 @@ CloudMon monitors Azure resources using a Python agent and remediates issues usi
 2. Deploy Go Remediation Service:
    - Build and publish Docker image.
    - Use `deploy/container_app_bicep.bicep` to deploy it to Azure Container Apps or package it in Azure Function with custom container.
+   - Make sure to create an Azure Managed Environment named `cloudmon-env` beforehand.
 
 3. Networking:
    - Use Azure VNet, subnets, and private endpoints to restrict communication securely.
@@ -37,6 +38,7 @@ CloudMon monitors Azure resources using a Python agent and remediates issues usi
 - Setup Azure Monitor or Grafana dashboard for visual insights.
 - Use Azure Key Vault to manage secrets for both Python and Go components.
 - Add CI/CD pipeline using GitHub Actions (see `.github/workflows/ci-cd.yml`) or Azure DevOps.
+
 
 ## 🧠 Author
 Nasze’ Royster
