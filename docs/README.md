@@ -1,0 +1,1 @@
+See the architecture diagram (architecture.png) and refer to root README for setup instructions.
