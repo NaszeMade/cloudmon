@@ -1,7 +1,7 @@
 # CloudMon: Azure Cloud Monitoring & Remediation System
 
 ## 📌 Overview
-CloudMon monitors Azure resources using a Python agent and remediates issues using a Go microservice. Infrastructure is managed with Terraform, and configurations are handled in YAML.
+CloudMon monitors Azure resources using a Python agent and remediates issues using a Go microservice. Infrastructure is managed with Terraform and configurations are handled in YAML.
 
 ## 🔧 Tech Stack
 - Python
